@@ -1,44 +1,44 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# MyReads - A Book Tracking App
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+MyReads is a bookshelf app that allows you to select and categorize books you have read, are currently reading, or want to read.
 
-### `npm start`
+React was used to build the application.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+An API server and client library were provided to use to persist information as you interact with the application.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+In this application, the main page displays a list of "shelves" (i.e. categories), each of which contains a number of books. The three shelves are:
+* Currently Reading
+* Want to Read
+* Read
 
-### `npm test`
+Each book has a control that lets you select the shelf for that book. When you select a different shelf, the book moves there.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The main page also has a link to `/search`, a search page that allows you to find books to add to your library.
 
-### `npm run build`
+The search page has a text input that may be used to find books.
+As the value of the text input changes, the books that match that query are displayed on the page, along with a control that lets you add the book to your library.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The search page also has a link to `/` (the root URL), which leads back to the main page.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+When you navigate back to the main page from the search page, you should instantly see all of the selections you made on the search page in your library.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Quickstart
 
-### `npm run eject`
+To run this application you can download the zip or clone the directory to your computer.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+From inside the new directory:
+* install all project dependencies with `npm install`
+* start the development server with `npm start`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Important
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+The backend API uses a fixed set of cached search results and is limited to a particular set of search terms, which can be found in [SEARCH_TERMS.md](SEARCH_TERMS.md). That list of terms are the _only_ terms that will work with the backend, so don't be surprised if your searches for Basket Weaving or Bubble Wrap don't come back with any results.
 
-## Learn More
+## Create React App
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+> #**MadeWithUdacity**
