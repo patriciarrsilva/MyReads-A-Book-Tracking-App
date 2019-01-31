@@ -16,19 +16,19 @@ self.__precacheManifest = [
     "url": "/MyReads-A-Book-Tracking-App/static/js/runtime~main.bdabf07b.js"
   },
   {
-    "revision": "218bc786a45233065553",
-    "url": "/MyReads-A-Book-Tracking-App/static/js/main.218bc786.chunk.js"
+    "revision": "ee339f68021c50d7d108",
+    "url": "/MyReads-A-Book-Tracking-App/static/js/main.ee339f68.chunk.js"
   },
   {
     "revision": "55561c7873a9919762be",
     "url": "/MyReads-A-Book-Tracking-App/static/js/1.55561c78.chunk.js"
   },
   {
-    "revision": "218bc786a45233065553",
-    "url": "/MyReads-A-Book-Tracking-App/static/css/main.fa33ae1f.chunk.css"
+    "revision": "ee339f68021c50d7d108",
+    "url": "/MyReads-A-Book-Tracking-App/static/css/main.8298f667.chunk.css"
   },
   {
-    "revision": "6594bd1992dc36f78599ff12c3b25d5d",
+    "revision": "21cc6f05f727afdee4f05444400c31c6",
     "url": "/MyReads-A-Book-Tracking-App/index.html"
   }
 ];
