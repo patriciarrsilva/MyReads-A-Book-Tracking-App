@@ -7,7 +7,7 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <BrowserRouter
-    basename={MyReads-A-Book-Tracking-App}
+    basename="/MyReads-A-Book-Tracking-App"
   ><App /></BrowserRouter>,
   document.getElementById('root')
 )
